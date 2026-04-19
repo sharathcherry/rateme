@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: Gradle Wrapper
+Created-By: 21.0.8 (Oracle Corporation)
+

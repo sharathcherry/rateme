@@ -1,0 +1,29 @@
+You are an expert React Native developer and UI/UX engineer. 
+
+I need you to convert my existing React (Vite+Tailwind) web application into a React Native Expo application. 
+
+**Context & Requirements:**
+1. **Framework:** React Native with Expo (SDK 50+).
+2. **Navigation:** React Navigation (`@react-navigation/native-stack` & `@react-navigation/bottom-tabs`).
+3. **Styling:** I have provided my Tailwind CSS classes from the web version. Convert these accurately into React Native `StyleSheet` (or NativeWind if specified). Note that `div` becomes `View`, `p`/`span` becomes `Text`, `button` becomes `TouchableOpacity`, and `img` becomes `Image` from `expo-image`.
+4. **Gradients:** Replace CSS `linear-gradient` with `expo-linear-gradient`.
+5. **Blur Effects:** Replace CSS `backdrop-blur` with `expo-blur`.
+6. **Icons:** Use `lucide-react-native` instead of `lucide-react`.
+7. **Firebase:** Keep the existing Firebase logic. It's authenticated via `expo-auth-session` and `getReactNativePersistence` from `@react-native-async-storage/async-storage`.
+
+**Design Language (Must Mirror Accurately):**
+- Dark high-contrast theme. Background: `#0F0F11`. Cards: `#1C1C1E`.
+- Core Text: `#F0EEE8`. Muted Text: `#8A8894`.
+- Primary Accent: "Coral Gradient" (`#FF8BA0` to `#FF4D6D`).
+- Secondary Accent: "Sunset Gradient" (`#FF6B6B` to `#FFA07A`).
+- All interactive elements (buttons, cards) must have active scaling (`activeOpacity={0.8}`).
+- All avatars must have round shapes and handle `resizeMode='cover'`.
+
+**Included Files:**
+Below I will provide the existing React code for my components: `Login.tsx`, `Browse.tsx`, `Profile.tsx`, `Ratings.tsx` and `BottomNavBar.tsx`. 
+
+Please convert each file into its React Native equivalent, preserving ALL state logic, Firebase calls, and precisely matching the styling using React Native primitives.
+
+### Let's begin parsing the code:
+
+[USER SHOULD PASTE THE CODE HERE]
